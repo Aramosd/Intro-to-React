@@ -50,3 +50,8 @@ This app was built using:
 
 # References
 - [React Docs](https://reactjs.org/docs/hello-world.html)
+
+
+#SETUP
+1) Install Sublime Babel
+2) Install ES Lint
