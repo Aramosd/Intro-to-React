@@ -3,6 +3,11 @@ import * as albumActions from './albumActions';
 import * as photoActions from './photoActions';
 import * as actionTypes from './actionTypes';
 
+let key = '';
+beforeEach(() => {
+  key = `photo-${Date.now()}`;
+})
+
 const album = {
   name: 'Album name',
   description: 'This is the album description',
